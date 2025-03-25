@@ -8,3 +8,4 @@ COPY ./target/course-service.jar /app
 EXPOSE 8080
 # Command to run the application
 CMD ["java", "-jar", "course-service.jar"]
+
